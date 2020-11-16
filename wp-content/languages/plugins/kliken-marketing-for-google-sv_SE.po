@@ -1,0 +1,150 @@
+# Translation of Plugins - Google Ads for WooCommerce - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Google Ads for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-09 20:37:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Google Ads for WooCommerce - Stable (latest release)\n"
+
+#: pages/getstarted.php:51
+msgid "Get Started"
+msgstr "Kom igång"
+
+#: pages/dashboard.php:68
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: pages/dashboard.php:67
+msgid "Enable Edit"
+msgstr "Aktivera redigera"
+
+#: pages/dashboard.php:56
+msgid "Advanced Options"
+msgstr "Avancerade alternativ"
+
+#: pages/dashboard.php:48
+msgid "Manage Campaigns"
+msgstr "Hantera kampanjer"
+
+#: pages/dashboard.php:26
+msgid "Your store is connected."
+msgstr "Din butik är ansluten."
+
+#: classes/class-rest-misc-controller.php:63
+#: classes/class-rest-misc-controller.php:91
+msgid "Invalid Data"
+msgstr "Ogiltig data"
+
+#: classes/class-wc-integration.php:63
+msgid "What are these options?"
+msgstr "Vad är dessa alternativ?"
+
+#: classes/class-wc-integration.php:47
+msgid "Account Id"
+msgstr "Konto-ID"
+
+#: classes/class-plugin.php:125
+msgid "Support"
+msgstr "Support"
+
+#: classes/class-plugin.php:122
+msgid "Dashboard"
+msgstr "Adminpanel"
+
+#. Plugin Name of the plugin
+#: classes/class-wc-integration.php:25 pages/dashboard.php:13
+#: pages/getstarted.php:28
+msgid "Google Ads for WooCommerce"
+msgstr "Google Ads for WooCommerce"
+
+#: classes/class-wc-integration.php:52
+msgid "Application Token"
+msgstr "Applikations-token"
+
+#: classes/class-rest-misc-controller.php:128
+msgid "Sorry, you cannot list resources."
+msgstr "Du kan inte lista resurser."
+
+#: classes/class-plugin.php:208
+msgid "This will dismiss the message permanently. Are you sure?"
+msgstr "Detta kommer avvisa meddelandet permanent. Är du säker?"
+
+#: classes/class-plugin.php:273
+msgid "Google Ads for WooCommerce requires WooCommerce to be activated"
+msgstr "Google Ads for WooCommerce kräver att WooCommerce är aktiverat"
+
+#. translators: %s: Version number of WooCommerce required to run plugin. Do
+#. not translate.
+#: classes/class-plugin.php:279
+msgid "Google Ads for WooCommerce requires WooCommerce version %s or greater"
+msgstr "Google Ads for WooCommerce kräver WooCommerce-version %s eller senare"
+
+#: classes/class-plugin.php:55
+msgid "Google Ads for WooCommerce plugin can only be called once"
+msgstr "Tillägget Google Ads for WooCommerce kan bara anropas en gång"
+
+#. translators: %s: A hyperlink
+#: classes/class-helper.php:465
+msgid "<strong>Google Ads for WooCommerce plugin is almost ready.</strong> <a href=\"%s\">Click here</a> to get started."
+msgstr "<strong>Tillägget Google Ads for WooCommerce är nästan klart.</strong> <a href=\"%s\">Klicka här</a> för att komma igång."
+
+#: pages/getstarted.php:45
+msgid "Find more customers on Google"
+msgstr "Hitta fler kunder på Google"
+
+#: pages/getstarted.php:43
+msgid "Use this WooCommerce and Google Ads integration to:"
+msgstr "Använd denna WooCommerce- och Google Ads-integration för att:"
+
+#: pages/getstarted.php:48
+msgid "Create perfect shopping campaigns in minutes"
+msgstr "Skapa perfekta shoppingkampanjer på några minuter"
+
+#: pages/getstarted.php:47
+msgid "Keep your marketing and store in sync"
+msgstr "Håll din marknadsföring och butik synkroniserad"
+
+#: pages/getstarted.php:46
+msgid "Automate bidding to maximize sales for your marketing budget"
+msgstr "Automatisera budgivning för att maximera försäljningen för din marknadsföringsbudget"
+
+#: pages/getstarted.php:41
+msgid "Increase sales and revenue with Google Shopping Ads"
+msgstr "Öka försäljningen och intäkterna med Google Shopping Ads"
+
+#: pages/dashboard.php:34
+msgid "Campaign Dashboard"
+msgstr "Kampanjens adminpanel"
+
+#: pages/dashboard.php:28
+msgid "Your WooCommerce store is connected to your Kliken account."
+msgstr "Din WooCommerce-butik är ansluten till ditt Kliken-konto."
+
+#: classes/class-wc-integration.php:57
+msgid "Google Verification Token"
+msgstr "Google verifierings-token"
+
+#: pages/dashboard.php:41
+msgid "Create a New Google Shopping Campaign"
+msgstr "Skapa en ny kampanj med Google Shopping"
+
+#: pages/dashboard.php:36
+msgid "Open your dashboard to review your campaign's performance"
+msgstr "Öppna din adminpanel för att granska kampanjens resultat"
+
+#: pages/dashboard.php:15
+msgid "Launch Google Shopping ads and get your products found online easily."
+msgstr "Lansera Google Shopping ads och gör dina produkter lätt att hitta online."
+
+#: pages/dashboard.php:43
+msgid "Build a campaign in a few minutes, and sell to customers as they search for your products on Google."
+msgstr "Bygg en kampanj på några minuter och sälj till kunder när de söker efter dina produkter på Google."
+
+#: pages/getstarted.php:30
+msgid "Launch Google Shopping Ads and get your products found online easily."
+msgstr "Lansera Google Shopping Ads och gör dina produkter lätt att hitta online."

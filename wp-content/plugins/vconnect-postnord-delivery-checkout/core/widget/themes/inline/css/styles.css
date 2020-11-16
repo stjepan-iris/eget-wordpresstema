@@ -1,0 +1,1924 @@
+#ainoWidget {
+    /*!don't use this*/
+    /*clearfix*/
+    /*clearfix*/
+    /*Fonts*/
+    /*Fonts*/
+    /*main styles*/
+    /*main styles*/
+    /*images*/
+    /*!images*/
+    /*checkbox*/
+    /*!checkbox*/
+    /*collapse*/
+    /*!collapse*/
+    /*weather*/
+    /*!weather*/
+    /*tabs*/
+    /*!tabs*/
+    /*If the package does not fit in the mailbox*/
+    /*!If the package does not fit in the mailbox*/
+    /*Customize your shipping*/
+    /*!Customize your shipping*/
+    /*convenient*/
+    /*!convenient*/
+    /*Delivery*/
+    /*!Delivery*/
+    /*Map*/
+    /*!Map*/
+    /*header*/
+    /*!header*/
+    /*footer*/
+    /*!footer*/
+    /*3columns*/
+    /*!3columns*/
+    /*media*/
+    /*media*/
+}
+    /*.container {
+  margin: 0 auto;
+  display: table;
+}
+.aino-container.aino-3column {
+  padding: 0 15px;
+}
+.open-design {
+  border-radius: 2px;
+  background-color: #b4e1d8;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-family: 'Stag Sans Round - Book', sans-serif !important;
+  outline: none;
+  display: inline-block;
+  padding: 7px 17px 5px;
+}
+@media (min-width: 768px) {
+ .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 940px;
+  }
+  .col-4 {
+    width: 33.33333%;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: table-cell;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    display: block;
+  }
+}*/
+
+
+    #ainoWidget .cf:before, #ainoWidget .cf:after {
+        content: "";
+        display: table;
+    }
+
+    #ainoWidget .cf:after {
+        clear: both;
+    }
+
+    #ainoWidget .cf {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+
+@font-face {
+    font-family: 'Stag Sans Round - Medium';
+    src: url('../fonts/Stag Sans Round - Medium.otf');
+    src: url('../fonts/Stag Sans Round - Medium.otf?#iefix') format('embedded-opentype'), url('../fonts/Stag Sans Round - Medium.otf') format('woff2'), url('../fonts/Stag Sans Round - Medium.otf') format('woff'), url('../fonts/Stag Sans Round - Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stag Sans Round - Book';
+    src: url('../fonts/Stag Sans Round - Book.otf');
+    src: url('../fonts/Stag Sans Round - Book.otf?#iefix') format('embedded-opentype'), url('../fonts/Stag Sans Round - Book.otf') format('woff2'), url('../fonts/Stag Sans Round - Book.otf') format('woff'), url('../fonts/Stag Sans Round - Book.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stag Sans Round - Light';
+    src: url('../fonts/Stag Sans Round - Light.otf');
+    src: url('../fonts/Stag Sans Round - Light.otf?#iefix') format('embedded-opentype'), url('../fonts/Stag Sans Round - Light.otf') format('woff2'), url('../fonts/Stag Sans Round - Light.otf') format('woff'), url('../fonts/Stag Sans Round - Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stag Sans Round - Semibold';
+    src: url('../fonts/Stag Sans Round - Semibold.otf');
+    src: url('../fonts/Stag Sans Round - Semibold.otf?#iefix') format('embedded-opentype'), url('../fonts/Stag Sans Round - Semibold.otf') format('woff2'), url('../fonts/Stag Sans Round - Semibold.otf') format('woff'), url('../fonts/Stag Sans Round - Semibold.otf') format('truetype');
+}
+
+.aino-container {
+    background: #fff;
+}
+
+#ainoWidget .aino-container * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    vertical-align: baseline;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: "Stag Sans Round - Book", sans-serif;
+}
+
+#ainoWidget .aino-media * {
+    font-size: 13px;
+}
+
+#ainoWidget button.aino-button, #ainoWidget a.aino-button {
+    box-shadow: none;
+    margin: 9px 0;
+}
+
+#ainoWidget .aino-container button {
+    cursor: pointer;
+    outline: none;
+    background: none;
+    line-height: normal;
+    height: auto;
+    color: #000;
+    text-transform: none;
+}
+
+#ainoWidget .aino-media-left, #ainoWidget .aino-media-body, #ainoWidget .aino-media-right {
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+}
+
+#ainoWidget .aino-media-left {
+    padding-right: 10px;
+}
+
+#ainoWidget .aino-media-right {
+    padding-left: 10px;
+}
+
+    #ainoWidget .aino-media-right .aino-button {
+        margin-top: -6px;
+    }
+
+#ainoWidget .aino-media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: "Stag Sans Round - Medium", sans-serif;
+    font-weight: 500;
+}
+
+#ainoWidget .aino-card {
+    position: relative;
+    border-radius: 2px;
+    background-color: #fff;
+    border: solid 1px rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .aino-card-top .aino-mini-map {
+    height: 162px;
+    width: 99.9%;
+}
+
+#ainoWidget .aino-card-body {
+    padding: 14px;
+}
+
+#ainoWidget .aino-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#ainoWidget .aino-button {
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06), inset 0 0 0 0.5px rgba(0, 0, 0, 0.08);
+    font-family: 'Stag Sans Round - Book', sans-serif !important;
+    font-size: 12px;
+    outline: none;
+    display: inline-block;
+    padding: 7px 17px 5px;
+}
+
+    #ainoWidget .aino-button.aino-active, #ainoWidget .aino-button.green {
+        background-color: #b4e1d8;
+    }
+
+#ainoWidget label.aino-button {
+    border-radius: 100px;
+    display: inline-block;
+    padding: 7px 17px 5px;
+    font-size: 13px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+    #ainoWidget label.aino-button b {
+        margin-bottom: 0;
+        vertical-align: text-bottom;
+    }
+
+#ainoWidget .aino-text-light {
+    opacity: 0.7;
+    font-size: 12px;
+    font-family: "Stag Sans Round - Book", sans-serif;
+    margin-bottom: 10px;
+}
+
+#ainoWidget .aino-container b {
+    font-family: "Stag Sans Round - Medium", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 12.5px;
+}
+
+#ainoWidget .aino-container select, #ainoWidget .aino-container input {
+    font-size: 13px;
+    font-family: "Stag Sans Round - Book", sans-serif;
+    border-radius: 2px;
+    border: solid 1px rgba(0, 0, 0, 0.15);
+    padding: 10px 37px 10px 13px;
+}
+
+#ainoWidget .aino-container input {
+    padding-right: 13px;
+    outline: none;
+    height: auto;
+    box-shadow: none;
+}
+
+#ainoWidget .aino-container select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: url("../images/icon-chevron-down.png") calc(100% - 15px) 6px no-repeat;
+    margin-right: 10px;
+    outline: none;
+}
+
+    #ainoWidget .aino-container select::-ms-expand {
+        display: none;
+    }
+
+#ainoWidget ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    opacity: 0.4;
+    color: #000;
+}
+
+#ainoWidget ::-moz-placeholder {
+    /* Firefox 19+ */
+    opacity: 0.4;
+    color: #000;
+}
+
+#ainoWidget :-ms-input-placeholder {
+    /* IE 10+ */
+    opacity: 0.4;
+    color: #000;
+}
+
+#ainoWidget :-moz-placeholder {
+    /* Firefox 18- */
+    opacity: 0.4;
+    color: #000;
+}
+
+#ainoWidget .aino-disable {
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+#ainoWidget .aino-disc-style span:before {
+    content: '·';
+    display: inline-block;
+    font-size: 28px;
+    line-height: 4px;
+    vertical-align: sub;
+    margin-right: 9px;
+}
+
+#ainoWidget .aino-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+    #ainoWidget .aino-dropdown .aino-dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        font-size: 14px;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-top: none;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+        -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+        width: 100%;
+    }
+
+    #ainoWidget .aino-dropdown.aino-open .aino-dropdown-menu {
+        display: block;
+    }
+
+    #ainoWidget .aino-dropdown .aino-dropdown-trigger {
+        font-size: 13px;
+        font-family: "Stag Sans Round - Book", sans-serif;
+        border-radius: 2px;
+        border: solid 1px rgba(0, 0, 0, 0.15);
+        padding: 10px 37px 10px 13px;
+        background: url("../images/icon-chevron-down.png") calc(100% - 15px) 6px no-repeat;
+        width: 238px;
+        text-align: left;
+    }
+
+    #ainoWidget .aino-dropdown.aino-open .aino-dropdown-trigger {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background: url(../images/icon-chevron-up.png) calc(100% - 15px) 50% no-repeat;
+        -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    }
+
+#ainoWidget .aino-container .aino-dropdown-menu label {
+    display: block;
+    padding: 11px 33px 11px 13px;
+    clear: both;
+    color: #333;
+    position: relative;
+}
+
+    #ainoWidget .aino-container .aino-dropdown-menu label span {
+        display: block;
+        font-weight: 400;
+        color: #333;
+        font-size: 13px;
+    }
+
+#ainoWidget .aino-container .aino-dropdown-menu li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+    #ainoWidget .aino-container .aino-dropdown-menu li:last-child {
+        border-bottom: none;
+    }
+
+#ainoWidget .aino-select-option input ~ .aino-indicator {
+    border: none;
+    right: 10px;
+    left: auto;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+#ainoWidget .aino-select-option input:checked ~ .aino-indicator, #ainoWidget .aino-select-option input[checked] ~ .aino-indicator {
+    background: url("../images/checkmark-black@2x.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ainoWidget .aino-container .aino-tabs > li {
+    float: left;
+}
+
+    #ainoWidget .aino-container .aino-tabs > li.aino-active label.aino-input {
+        background-color: #b4e1d8;
+    }
+
+#ainoWidget .aino-container .aino-tab-content .aino-tab-panel {
+    display: none;
+}
+
+    #ainoWidget .aino-container .aino-tab-content .aino-tab-panel.aino-active {
+        display: block;
+    }
+
+#ainoWidget .aino-container .aino-postnord-logo {
+    background: url("../images/postnord-logo-big@3x.png") no-repeat 0 0;
+    width: 84px;
+    height: 18px;
+    background-size: 100%;
+    display: inline-block;
+}
+
+#ainoWidget .aino-container .aino-logo-img {
+    width: 84px;
+    height: 18px;
+    display: inline-block;
+}
+
+#ainoWidget .aino-container .aino-footer .aino-postnord-logo {
+    background: url("../images/postnord-logo-big.png");
+    background-size: 100%;
+    width: 68px;
+    height: 14px;
+    opacity: 1;
+}
+
+#ainoWidget .aino-container .aino-exclamation-sign {
+    background: url("../images/exclamation-sign.png") no-repeat 0 0;
+    width: 14px;
+    height: 14px;
+    background-size: 100%;
+    display: inline-block;
+}
+
+#ainoWidget .customize-shipping-empty .aino-empty {
+    background: url("../images/graphics-anpassa-emptystate@3x.png") no-repeat 0 0;
+    width: 100px;
+    height: 28px;
+    background-size: 100%;
+    display: block;
+    margin: 12px auto;
+}
+
+#ainoWidget .aino-container .aino-marker {
+    background: url("../images/icon-ombud@2x-green.png") no-repeat 0 0;
+    width: 13px;
+    height: 16.5px;
+    background-size: 100%;
+    display: inline-block;
+}
+
+#ainoWidget .aino-container .aino-icon-search {
+    background: url("../images/icon-search.png") no-repeat 0 0;
+    width: 18px;
+    height: 18px;
+    background-size: 100%;
+    display: inline-block;
+}
+
+#ainoWidget .aino-container .aino-input > input, #ainoWidget .aino-select-option input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: none;
+}
+
+#ainoWidget .aino-container .aino-indicator {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    display: block;
+    line-height: 1rem;
+    user-select: none;
+    width: 18px;
+    height: 18px;
+    border: solid 1px rgba(0, 0, 0, 0.15);
+    margin: 0 !important;
+}
+
+#ainoWidget .aino-container .aino-checkbox > input:checked ~ .aino-indicator, #ainoWidget .aino-container .aino-checkbox > input[checked] ~ .aino-indicator {
+    background: #b4e1d8 url("../images/checkmark-black@2x.png") no-repeat 0 0;
+    background-size: contain;
+    background-position: center;
+    border: none;
+}
+
+#ainoWidget .aino-container .aino-radio .aino-indicator {
+    border-radius: 50%;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+#ainoWidget .aino-container .aino-radio > input:checked ~ .aino-indicator, #ainoWidget .aino-container .aino-radio > input[checked] ~ .aino-indicator {
+    background: url("../images/aino-radio.png") no-repeat 0 0;
+    border: none;
+    padding: 6px;
+}
+
+    #ainoWidget .aino-container .aino-radio > input:checked ~ .aino-indicator:after, #ainoWidget .aino-container .aino-radio > input[checked] ~ .aino-indicator:after {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #000;
+    }
+
+#ainoWidget .aino-collapse {
+    display: none;
+}
+
+#ainoWidget li.aino-active > .aino-collapse, #ainoWidget .aino-collapse-trigger.aino-active + .aino-collapse {
+    display: block;
+}
+
+#ainoWidget .aino-weather {
+    margin: 15px 0 10px -15px;
+    width: 270px;
+    display: block;
+}
+
+    #ainoWidget .aino-weather li {
+        float: left;
+        width: 33.33333%;
+        padding: 0 15px;
+        border-left: 1px solid rgba(0, 0, 0, 0.15);
+    }
+
+        #ainoWidget .aino-weather li:first-child {
+            border-left: none;
+        }
+
+        #ainoWidget .aino-weather li span, #ainoWidget .aino-weather li img {
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+    #ainoWidget .aino-weather .aino-weather-day {
+        margin-bottom: 5px;
+        font-family: "Stag Sans Round - Medium", sans-serif;
+        font-size: 12px;
+    }
+
+    #ainoWidget .aino-weather .aion-weather-temp {
+        margin-left: 5px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+        #ainoWidget .aino-weather .aion-weather-temp sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+            top: -0.5em;
+        }
+
+#ainoWidget .aino-deliver-to > li {
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+}
+
+    #ainoWidget .aino-deliver-to > li.aino-active {
+        border-top: 3px solid #b4e1d8;
+    }
+
+#ainoWidget label.aino-input span {
+    display: block;
+}
+
+#ainoWidget .aino-collapse-trigger {
+    padding: 17px 10px 16px 45px;
+    display: block;
+    font-family: "Stag Sans Round - Medium", sans-serif;
+    font-weight: 500;
+    position: relative;
+    font-size: 15px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+#ainoWidget li[data-aino="customize-shipping"].aino-active .shipping-method-label {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .aino-delivery-detailed {
+    width: 50%;
+    min-height: 330px;
+    background-color: #fff;
+}
+
+#ainoWidget .aino-collapse-trigger span, #ainoWidget .aino-media .aino-destination-info {
+    font-family: "Stag Sans Round - Book", sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #000;
+}
+
+#ainoWidget .aino-collapse-trigger input {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin: 0;
+}
+
+    #ainoWidget .aino-collapse-trigger input + span {
+        margin-top: 3px;
+    }
+
+        #ainoWidget .aino-collapse-trigger input + span > span:not(.aino-delivery-price), #ainoWidget .aino-media .aino-destination-info {
+            opacity: 0.7;
+        }
+
+#ainoWidget .aino-container .carrier-logo {
+    position: absolute;
+    right: 15px;
+    bottom: 14px;
+    z-index: 10;
+}
+
+#ainoWidget .aino-container .aino-delivery-price {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 15px;
+    font-family: "Stag Sans Round - Medium", sans-serif;
+}
+
+#ainoWidget .aino-deliver-to > li.aino-active {
+    position: relative;
+    padding: 17px 115px 16px 45px;
+}
+
+    #ainoWidget .aino-deliver-to > li.aino-active > .aino-collapse-trigger, #ainoWidget .aino-deliver-to > li.aino-active > .aino-collapse {
+        padding: 0;
+        position: static;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    #ainoWidget .aino-deliver-to > li.aino-active > .aino-collapse-trigger {
+        width: 300px;
+        border-right: 1px solid rgba(0, 0, 0, 0.15);
+    }
+
+        #ainoWidget .aino-deliver-to > li.aino-active > .aino-collapse-trigger hr {
+            display: none;
+        }
+
+    #ainoWidget .aino-deliver-to > li.aino-active > .aino-collapse {
+        padding: 0 0 0 26px;
+    }
+
+#ainoWidget li > .aino-input > .carrier-logo {
+    opacity: 0.5;
+}
+
+#ainoWidget li.aino-active > .aino-input > .carrier-logo {
+    opacity: 1;
+}
+
+#ainoWidget .aino-big-package .aino-media {
+    margin-top: 4px;
+}
+
+#ainoWidget .aino-big-package .aino-button input {
+    /*display: none;*/
+}
+
+#ainoWidget .aino-big-package .aino-collapse-trigger.aino-button + .aino-collapse {
+    float: right;
+    width: 100%;
+}
+
+#ainoWidget .aino-big-package .aino-dropoff-place {
+    font-size: 12px;
+}
+
+#ainoWidget .aino-dropoff-place span {
+    font-size: 12px;
+    font-family: "Stag Sans Round - Book", sans-serif;
+    margin: 2px 0 10px;
+    display: block;
+}
+
+#ainoWidget li[data-aino="customize-shipping"].aino-active, #ainoWidget li[data-aino="map"].aino-active {
+    padding: 0;
+}
+
+    #ainoWidget li[data-aino="customize-shipping"].aino-active .shipping-method-label {
+        padding: 0 10px 0 45px;
+        line-height: 48px;
+    }
+
+    #ainoWidget li[data-aino="customize-shipping"].aino-active > .aino-collapse-trigger, #ainoWidget li[data-aino="customize-shipping"].aino-active > .aino-collapse {
+        position: relative;
+        display: block;
+    }
+
+    #ainoWidget li[data-aino="customize-shipping"].aino-active > .aino-collapse-trigger, #ainoWidget li[data-aino="map"].aino-active > .aino-collapse-trigger {
+        width: 100%;
+        border-right: none;
+    }
+
+    #ainoWidget li[data-aino="customize-shipping"].aino-active > .aino-collapse {
+        padding: 0;
+    }
+
+    #ainoWidget li[data-aino="customize-shipping"].aino-active > .aino-collapse-trigger > .aino-disc-style, #ainoWidget li[data-aino="customize-shipping"].aino-active > .aino-collapse-trigger > .aino-delivery-price, #ainoWidget li[data-aino="customize-shipping"].aino-active > .aino-collapse-trigger > .carrier-logo {
+        display: none;
+    }
+
+#ainoWidget .aino-delivery-detailed > li > .aino-collapse, #ainoWidget .customize-shipping-empty {
+    position: absolute;
+    width: 50%;
+    min-height: 99.9%;
+    right: 0;
+    top: 0;
+    padding: 20px 26px;
+    background-color: #fff;
+    z-index: 1;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .customize-shipping-empty {
+    z-index: 0;
+    min-height: 99.9%;
+}
+
+#ainoWidget .aino-delivery-detailed > li {
+    display: block;
+}
+
+    #ainoWidget .aino-delivery-detailed > li > label {
+        border-width: 1px;
+        border-style: solid none none solid;
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    #ainoWidget .aino-delivery-detailed > li.aino-active > label {
+        margin-right: -9px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+    }
+
+    #ainoWidget .aino-delivery-detailed > li.aino-active ~ li > label {
+        border-top: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    }
+
+#ainoWidget .aino-delivery-detailed li:last-child > label {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#ainoWidget .aino-delivery-detailed > li.aino-active > label:after, #ainoWidget .aino-delivery-detailed > li.aino-active > label:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid rgba(0, 0, 0, 0.15);
+    right: -5px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+#ainoWidget .aino-delivery-detailed > li.aino-active > label:before {
+    border-left: 5px solid #fff;
+    right: -4px;
+    z-index: 9999;
+}
+
+#ainoWidget .aino-big-package .aino-dropoff-place, #ainoWidget .aino-delivery-detailed .arrival-time {
+    display: block;
+}
+
+#ainoWidget .customize-shipping-empty > div {
+    position: absolute;
+    width: 267px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#ainoWidget [data-aino="mini-map"] .aino-card-body .aino-media-body,
+#ainoWidget [data-aino="shop-mini-map"] .aino-card-body .aino-media-body {
+    width: 100%;
+}
+
+    #ainoWidget [data-aino="mini-map"] .aino-card-body .aino-media-body .aino-destination-info,
+    #ainoWidget [data-aino="shop-mini-map"] .aino-card-body .aino-media-body .aino-destination-info {
+        float: left;
+        line-height: 1.4;
+    }
+
+#ainoWidget [data-aino="mini-map"] .aino-card-body .aino-media-right,
+#ainoWidget [data-aino="shop-mini-map"] .aino-card-body .aino-media-right {
+    vertical-align: bottom;
+    text-align: right;
+}
+
+    #ainoWidget [data-aino="mini-map"] .aino-card-body .aino-media-right button.aino-button,
+    #ainoWidget [data-aino="shop-mini-map"] .aino-card-body .aino-media-right button.aino-button {
+        margin: 0;
+        white-space: nowrap;
+    }
+
+#ainoWidget .aino-entry-code {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#ainoWidget li[data-aino="convenient"] .aino-destination-info {
+    max-width: 305px;
+}
+
+#ainoWidget .aino-delivery .aino-delivery-step {
+    display: none;
+}
+
+    #ainoWidget .aino-delivery .aino-delivery-step.aino-step-1 {
+        display: table-cell;
+    }
+
+#ainoWidget li[data-aino="map"] {
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+    #ainoWidget li[data-aino="map"].aino-active {
+        display: block;
+    }
+
+        #ainoWidget li[data-aino="map"].aino-active ~ li {
+            display: none;
+        }
+
+        #ainoWidget li[data-aino="map"].aino-active > .shipping-method-label {
+            text-align: center;
+            padding: 0 15px;
+            line-height: 48px;
+            border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+            display: block;
+        }
+
+        #ainoWidget li[data-aino="map"].aino-active > .aino-collapse {
+            display: block;
+            padding: 0;
+        }
+
+    #ainoWidget li[data-aino="map"] .aino-backto-shipping {
+        display: none;
+    }
+
+    #ainoWidget li[data-aino="map"].aino-active .aino-backto-shipping {
+        display: block;
+        float: left;
+        background: transparent;
+        font-size: 13px;
+        font-family: 'Stag Sans Round - Book', sans-serif;
+        line-height: 48px;
+        position: absolute;
+    }
+
+        #ainoWidget li[data-aino="map"].aino-active .aino-backto-shipping:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            width: 8px;
+            height: 18px;
+            background: url("../images/icon-back.png") no-repeat;
+            background-size: cover;
+            margin-right: 5px;
+            margin-top: -4px;
+        }
+
+#ainoWidget .aino-location-list, #ainoWidget .aino-locations-footer .aino-loadmore-locations {
+    border-left: solid 1px rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .aino-map-container, #ainoWidget .aino-location-list {
+    height: 337px;
+}
+
+    #ainoWidget .aino-map-container .aino-search-point input {
+        border: none;
+    }
+
+#ainoWidget .aino-map-container {
+    width: 50%;
+    float: left;
+}
+
+#ainoWidget .aino-location-list {
+    width: 50%;
+    float: right;
+    overflow-y: auto;
+}
+
+#ainoWidget .aino-travel-mode {
+    content: url(../images/icon-walk.png);
+    margin-right: 3px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+#ainoWidget .aino-container .gm-style .gm-style-iw {
+    text-align: center;
+}
+
+#ainoWidget .aino-container .gm-style .gm-style-iw {
+    line-height: 8px;
+}
+
+    #ainoWidget .aino-container .gm-style .gm-style-iw div {
+        font-size: 13px;
+    }
+
+#ainoWidget .aino-container .gm-style-iw + div {
+    display: none;
+}
+
+#ainoWidget .aino-container .gm-style div[style*="cursor: default;"] {
+    margin-top: 12px;
+    margin-left: -3px;
+}
+
+    #ainoWidget .aino-container .gm-style div[style*="cursor: default;"] > div:first-child > div:first-child {
+        display: none !important;
+    }
+
+    #ainoWidget .aino-container .gm-style div[style*="cursor: default;"] > div:first-child > div:nth-child(2) {
+        background-color: #fcfeff;
+        box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.08), 0 1px 4px 0 rgba(0, 0, 0, 0.06);
+        border: solid 1px #fff;
+        border-radius: 4px !important;
+    }
+
+    #ainoWidget .aino-container .gm-style div[style*="cursor: default;"] > div:first-child > div:nth-child(3) > div:last-child {
+        height: 15px !important;
+    }
+
+    #ainoWidget .aino-container .gm-style div[style*="cursor: default;"] > div:first-child > div:nth-child(3) > div > div {
+        background-color: #fcfeff;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.06) !important;
+        border: solid 1px #fff;
+    }
+
+    #ainoWidget .aino-container .gm-style div[style*="cursor: default;"] > div:first-child > div:nth-child(3) > div {
+        height: 10px !important;
+    }
+
+        #ainoWidget .aino-container .gm-style div[style*="cursor: default;"] > div:first-child > div:nth-child(3) > div:first-child div {
+            transform: skewX(45deg) !important;
+        }
+
+        #ainoWidget .aino-container .gm-style div[style*="cursor: default;"] > div:first-child > div:nth-child(3) > div:last-child div {
+            transform: skewX(-45deg) !important;
+        }
+
+#ainoWidget .aino-location-container {
+    position: relative;
+    display: block;
+    padding: 13px 0 0 45px;
+    cursor: pointer;
+}
+
+    #ainoWidget .aino-location-container.aino-active .carrier-logo {
+        opacity: 1;
+    }
+
+    #ainoWidget .aino-location-container hr {
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+        opacity: 1;
+        background-color: transparent;
+        position: absolute;
+        width: calc(100% - 45px);
+    }
+
+#ainoWidget .aino-location-list li:last-child hr {
+    display: none;
+}
+
+#ainoWidget .aino-location-list b {
+    margin-bottom: 2px;
+}
+
+#ainoWidget .aino-locations-footer .aino-search-point, #ainoWidget .aino-locations-footer .aino-loadmore-locations {
+    width: 50%;
+    float: left;
+    position: relative;
+    border-top: solid 1px rgba(0, 0, 0, 0.15);
+}
+
+    #ainoWidget .aino-locations-footer .aino-search-point input {
+        width: 100%;
+        border: none;
+        outline: none;
+        line-height: 22px;
+        padding-right: 55px;
+    }
+
+        #ainoWidget .aino-locations-footer .aino-search-point input:focus + span {
+            display: none !important;
+        }
+
+#ainoWidget .aino-locations-footer button {
+    font-size: 13px;
+    font-family: "Stag Sans Round - Medium", sans-serif;
+}
+
+#ainoWidget .aino-locations-footer .aino-search-point button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+    padding: 0 16px;
+    line-height: 41px;
+}
+
+#ainoWidget .aino-locations-footer .aino-search-point > label > span {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 13px;
+}
+
+    #ainoWidget .aino-locations-footer .aino-search-point > label > span .aino-icon-search {
+        display: inline-block;
+        vertical-align: sub;
+        margin-right: 12px;
+    }
+
+#ainoWidget .aino-loadmore-locations button {
+    display: block;
+    width: 100%;
+    background: #fff;
+    line-height: normal;
+    padding: 14px 5px 15px;
+}
+
+    #ainoWidget .aino-loadmore-locations button:after {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 9px;
+        height: 5px;
+        background: url(../images/icon-chevron-down.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: -1px;
+        margin-left: 5px;
+    }
+
+#ainoWidget li[data-aino="map"] > .aino-collapse > .aino-loadmore-locations {
+    display: none;
+}
+
+#ainoWidget .aino-header > p {
+    font-size: 15px;
+    line-height: 1.27;
+    font-family: 'Stag Sans Round - Book', sans-serif;
+}
+
+    #ainoWidget .aino-header > p br {
+        line-height: 31px;
+    }
+
+#ainoWidget .aino-header .aino-search-point {
+    position: relative;
+    width: 300px;
+    margin: 17px 0 15px;
+}
+
+    #ainoWidget .aino-header .aino-search-point button {
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        background: #fff;
+        padding: 0 16px;
+        line-height: 38px;
+        font-size: 13px;
+    }
+
+    #ainoWidget .aino-header .aino-search-point input {
+        width: 100%;
+        line-height: 18px;
+        height: 40px;
+    }
+
+    #ainoWidget .aino-header .aino-search-point > label > span {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 13px;
+    }
+
+#ainoWidget .aino-footer {
+    text-align: center;
+    margin-top: 5px;
+}
+
+    #ainoWidget .aino-footer span {
+        opacity: 0.7;
+        letter-spacing: 0.2px;
+        font-size: 13px;
+        display: inline-block;
+        vertical-align: text-top;
+    }
+
+#ainoWidget .aino-3column .aino-header .aino-search-point input {
+    margin-top: 0;
+}
+
+#ainoWidget .aino-3column .aino-deliver-to > li > .aino-collapse > .aino-media .aino-media-left {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    margin: 0;
+}
+
+#ainoWidget .aino-3column .aino-deliver-to > li > .aino-collapse > .aino-media .aino-media-left, #ainoWidget .aino-3column .aino-deliver-to > li > .aino-collapse > .aino-media .aino-media-body:not(.aino-delivery-step), #ainoWidget .aino-3column .aino-deliver-to > li > .aino-collapse > .aino-media .aino-media-right {
+    display: block;
+}
+
+#ainoWidget .aino-3column .aino-card-body .aino-media-left {
+    position: static;
+}
+/*#ainoWidget .aino-3column .aino-media-right {
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+}*/
+#ainoWidget .aino-3column .aino-card-body {
+    padding: 15px 9px;
+}
+
+#ainoWidget .aino-3column button.aino-button, #ainoWidget .aino-3column a.aino-button {
+    margin: 5px 0;
+}
+
+#ainoWidget .aino-3column .aino-deliver-to > li > .aino-collapse-trigger {
+    padding: 17px 109px 16px 45px;
+}
+
+#ainoWidget .aino-3column .aino-deliver-to > li.aino-active > .aino-collapse {
+    display: block;
+    position: relative;
+    padding: 15px 15px 15px 43px;
+}
+
+#ainoWidget .aino-3column .aino-deliver-to > li.aino-active > .aino-collapse-trigger {
+    width: 100%;
+    border-right: none;
+    display: block;
+    position: relative;
+    padding: 17px 109px 16px 45px;
+    overflow: hidden;
+}
+
+#ainoWidget .aino-3column .aino-deliver-to > li.aino-active, #ainoWidget .aino-3column li[data-aino="customize-shipping"].aino-active > .aino-collapse {
+    padding: 0;
+}
+
+#ainoWidget .aino-3column .aino-indicator {
+    top: 14px;
+}
+
+#ainoWidget .aino-3column li[data-aino="customize-shipping"].aino-active .shipping-method-label {
+    line-height: normal;
+}
+
+#ainoWidget .aino-3column .customize-shipping-empty, #ainoWidget .aino-3column .aino-delivery-detailed > li.aino-active > label:after, #ainoWidget .aino-3column .aino-delivery-detailed > li.aino-active > label:before, #ainoWidget .aino-3column li[data-aino="map"] .aino-locations-footer .aino-loadmore-locations {
+    display: none;
+}
+
+#ainoWidget .aino-3column .aino-delivery-detailed > li > .aino-collapse, #ainoWidget .aino-3column .customize-shipping-empty {
+    position: static;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .aino-3column .aino-delivery-detailed > li > label {
+    margin-right: 0;
+    padding-right: 105px;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .aino-3column .aino-delivery-detailed > li.aino-active > label {
+    border-bottom: none;
+}
+
+#ainoWidget .aino-3column label.aino-button {
+    padding: 7px 17px 5px !important;
+    text-align: center;
+}
+
+#ainoWidget .aino-3column .aino-big-package .aino-collapse-trigger.aino-button + .aino-collapse {
+    float: none;
+}
+
+#ainoWidget .aino-3column .aino-big-package .aino-media {
+    margin-bottom: 15px;
+}
+
+#ainoWidget .aino-3column .aino-media-body button.aino-button, #ainoWidget .aino-3column .aino-media-body .aino-destination-info {
+    display: inline-block;
+    vertical-align: bottom;
+    float: none !important;
+}
+
+#ainoWidget .aino-3column .aino-media-body .aino-destination-info {
+    margin-right: 15px;
+}
+
+#ainoWidget .aino-3column li[data-aino="map"].aino-active .aino-backto-shipping {
+    font-size: 0;
+    padding: 0 15px;
+    margin: 0 -15px;
+}
+
+#ainoWidget .aino-3column li[data-aino="map"].aino-active > .aino-collapse {
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#ainoWidget .aino-3column li[data-aino="map"] .aino-map-container {
+    -webkit-order: 1;
+    -mox-order: 1;
+    order: 1;
+}
+
+#ainoWidget .aino-3column li[data-aino="map"] .aino-locations-footer {
+    -webkit-order: 2;
+    -mox-order: 2;
+    order: 2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .aino-3column li[data-aino="map"] .aino-location-list {
+    -webkit-order: 3;
+    -mox-order: 3;
+    order: 3;
+}
+
+#ainoWidget .aino-3column li[data-aino="map"] > .aino-collapse > .aino-loadmore-locations {
+    -webkit-order: 4;
+    -mox-order: 4;
+    order: 4;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
+#ainoWidget .aino-3column li[data-aino="map"] .aino-locations-footer .aino-search-point {
+    width: 100%;
+    float: none;
+    border-right: none;
+}
+
+#ainoWidget .aino-3column .aino-location-list, #ainoWidget .aino-3column .aino-map-container {
+    width: 100%;
+    float: none;
+    border: none;
+}
+
+#ainoWidget .aino-3column .aino-delivery-detailed li.aino-active:last-child > label {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+}
+
+#ainoWidget .aino-3column .aino-location-container .carrier-logo {
+    bottom: 7px;
+}
+
+#ainoWidget .aino-3column .aino-location-container .aino-destination-info {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+#ainoWidget .aino-3column .aino-deliver-to > li.aino-active > .aino-collapse-trigger hr {
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: -45px;
+}
+
+#ainoWidget .aino-3column li[data-aino="customize-shipping"] > .shipping-method-label > .carrier-logo {
+    position: static;
+    margin-top: 9px;
+    margin-bottom: -10px;
+}
+
+#ainoWidget .aino-3column .aino-dropdown {
+    display: block;
+    margin-right: 0;
+    width: 100% !important;
+}
+
+#ainoWidget .aino-3column .aino-dropdown-trigger, #ainoWidget .aino-3column .aino-header .aino-search-point, #ainoWidget .aino-3column .aino-entry-code, #ainoWidget .aino-3column select, #ainoWidget .aino-3column .aino-entry-code input, #ainoWidget .aino-3column .aino-delivery-detailed, #ainoWidget .aino-3column .aino-deliver-to > li.aino-active:not([data-aino="customize-shipping"]) > .aino-collapse-trigger {
+    width: 100%;
+}
+
+#ainoWidget .aino-3column .aino-delivery > .aino-media > .aino-media-left {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    margin: 0;
+}
+
+#ainoWidget .aino-3column .aino-weather {
+    width: 100%;
+    margin-left: 0;
+}
+
+#ainoWidget .aino-3column .aino-delivery-detailed > li > .aino-collapse {
+    overflow-y: visible;
+    padding-left: 45px;
+}
+
+#ainoWidget .aino-3column li[data-aino="mini-map"] .aino-collapse,
+#ainoWidget .aino-3column li[data-aino="shop-mini-map"] .aino-collapse {
+    padding-left: 26px;
+}
+
+#ainoWidget .aino-3column .aino-delivery-detailed > li > .aino-collapse .aino-tab-panel {
+    padding-left: 12px;
+}
+
+#ainoWidget .aino-3column .aino-media-body {
+    width: 100%;
+}
+
+#ainoWidget .aino-3column .aino-tab-panel .aino-media-body button.aino-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#ainoWidget .aino-3column .aino-delivery-detailed li.aino-active .carrier-logo, #ainoWidget .aino-3column .aino-delivery-price {
+    right: 15px;
+}
+
+@media (max-width: 1200px) {
+    #ainoWidget .aino-container .aino-dropdown {
+        width: 226px;
+    }
+
+    #ainoWidget .aino-dropdown .aino-dropdown-trigger {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    #ainoWidget .aino-container select, #ainoWidget .aino-container input, #ainoWidget .aino-entry-code, #ainoWidget .aino-container .aino-dropdown {
+        width: 100%;
+    }
+
+    #ainoWidget .aino-deliver-to > li.aino-active:not([data-aino="customize-shipping"]) > .aino-collapse-trigger {
+        width: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    #ainoWidget {
+        /*.aino-deliver-to > li > .aino-collapse > .aino-media .aino-media-left,*/
+        /*.aino-deliver-to > li > .aino-collapse > .aino-media .aino-media-body:not(.aino-delivery-step),*/
+        /*.aino-deliver-to > li > .aino-collapse > .aino-media .aino-media-right {*/
+        /*display: block;*/
+        /*}*/
+    }
+
+        #ainoWidget .aino-container .aino-media-body {
+            width: 100%;
+        }
+
+        #ainoWidget .aino-container .aino-tab-panel .aino-media-body button.aino-button {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        #ainoWidget .aino-container {
+            padding: 0 10px;
+        }
+
+        #ainoWidget .aino-header .aino-search-point {
+            width: 100%;
+        }
+
+            #ainoWidget .aino-header .aino-search-point input {
+                margin-top: 0;
+            }
+
+        #ainoWidget .aino-delivery > .aino-media > .aino-media-left {
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            margin: 0;
+        }
+
+        #ainoWidget .aino-delivery > .aino-media .aino-media-body button {
+            display: block;
+        }
+        /*#ainoWidget .aino-media .aino-media-right {
+    position: absolute;
+    right: 15px;
+    bottom: 14px;
+  }*/
+
+        #ainoWidget [data-aino="mini-map"] .aino-card-body .aino-media-right,
+        #ainoWidget [data-aino="shop-mini-map"] .aino-card-body .aino-media-right {
+            display: block;
+        }
+
+        #ainoWidget .aino-card-body .aino-media-left {
+            position: static;
+        }
+
+        #ainoWidget .aino-media-right {
+            padding: 0;
+        }
+
+        #ainoWidget .aino-card-body {
+            padding: 15px 9px;
+        }
+
+        #ainoWidget button.aino-button, #ainoWidget a.aino-button {
+            margin: 5px 0;
+        }
+
+        #ainoWidget .aino-deliver-to > li > .aino-collapse-trigger {
+            padding: 17px 109px 16px 45px;
+        }
+
+        #ainoWidget .aino-deliver-to > li.aino-active > .aino-collapse {
+            display: block;
+            position: relative;
+            padding: 15px 15px 15px 45px;
+        }
+
+        #ainoWidget .aino-deliver-to > li.aino-active > .aino-collapse-trigger {
+            width: 100% !important;
+            border-right: none;
+            display: block;
+            position: relative;
+            padding: 17px 109px 16px 45px;
+            overflow: hidden;
+        }
+
+        #ainoWidget .aino-deliver-to > li.aino-active, #ainoWidget li[data-aino="customize-shipping"].aino-active > .aino-collapse {
+            padding: 0;
+        }
+
+        #ainoWidget .aino-indicator {
+            top: 14px;
+        }
+
+        #ainoWidget li[data-aino="customize-shipping"].aino-active .shipping-method-label {
+            line-height: normal;
+        }
+
+        #ainoWidget .aino-delivery-detailed {
+            width: 100%;
+            min-height: 1px;
+        }
+
+            #ainoWidget .customize-shipping-empty, #ainoWidget .aino-delivery-detailed > li.aino-active > label:after, #ainoWidget .aino-delivery-detailed > li.aino-active > label:before {
+                display: none;
+            }
+
+            #ainoWidget .aino-delivery-detailed > li > .aino-collapse, #ainoWidget .customize-shipping-empty {
+                position: static;
+                width: 100%;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+                border-top: 1px solid rgba(0, 0, 0, 0.15);
+                overflow: visible;
+                padding-left: 45px;
+            }
+
+                #ainoWidget .aino-delivery-detailed > li > .aino-collapse .aino-tab-panel {
+                    padding-left: 12px;
+                }
+
+        #ainoWidget li[data-aino="mini-map"] .aino-collapse,
+        #ainoWidget li[data-aino="shop-mini-map"] .aino-collapse {
+            padding-left: 26px;
+        }
+
+        #ainoWidget .aino-delivery-detailed > li > label {
+            border-bottom: none;
+            border-right: 1px solid rgba(0, 0, 0, 0.15);
+        }
+
+        #ainoWidget .aino-delivery-detailed > li.aino-active > label {
+            margin-right: 0;
+            border-bottom: none;
+        }
+
+        #ainoWidget label.aino-button {
+            padding: 7px 17px 5px !important;
+            text-align: center;
+            display: table;
+        }
+
+        #ainoWidget .aino-big-package .aino-collapse-trigger.aino-button + .aino-collapse {
+            float: none;
+        }
+
+        #ainoWidget .aino-big-package .aino-media {
+            margin-bottom: 15px;
+        }
+
+        #ainoWidget select, #ainoWidget .aino-entry-code input {
+            width: 100%;
+        }
+
+        #ainoWidget .aino-media-body button.aino-button, #ainoWidget .aino-media-body .aino-destination-info {
+            display: inline-block;
+            vertical-align: bottom;
+            float: none !important;
+        }
+
+        #ainoWidget .aino-media-body .aino-destination-info {
+            margin-right: 15px;
+        }
+
+        #ainoWidget li[data-aino="map"].aino-active .aino-backto-shipping {
+            font-size: 0;
+            padding: 0 15px;
+            margin: 0 -15px;
+        }
+
+        #ainoWidget li[data-aino="map"].aino-active > .aino-collapse {
+            padding: 0;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        #ainoWidget li[data-aino="map"] .aino-map-container {
+            -webkit-order: 1;
+            -mox-order: 1;
+            order: 1;
+        }
+
+        #ainoWidget li[data-aino="map"] .aino-locations-footer {
+            -webkit-order: 2;
+            -mox-order: 2;
+            order: 2;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        }
+
+        #ainoWidget li[data-aino="map"] .aino-location-list {
+            -webkit-order: 3;
+            -mox-order: 3;
+            order: 3;
+        }
+
+        #ainoWidget li[data-aino="map"] > .aino-collapse > .aino-loadmore-locations {
+            -webkit-order: 4;
+            -mox-order: 4;
+            order: 4;
+            border-top: 1px solid rgba(0, 0, 0, 0.15);
+            display: block;
+        }
+
+        #ainoWidget li[data-aino="map"] .aino-locations-footer .aino-search-point {
+            width: 100%;
+            float: none;
+            border-right: none;
+        }
+
+        #ainoWidget li[data-aino="map"] .aino-locations-footer .aino-loadmore-locations {
+            display: none;
+        }
+
+        #ainoWidget .aino-location-list, #ainoWidget .aino-map-container {
+            width: 100%;
+            float: none;
+            border: none;
+        }
+
+        #ainoWidget .aino-location-container .carrier-logo {
+            bottom: 7px;
+        }
+
+        #ainoWidget .aino-location-container .aino-destination-info {
+            padding-bottom: 10px;
+            margin-bottom: 0;
+        }
+
+        #ainoWidget .aino-deliver-to > li.aino-active > .aino-collapse-trigger hr {
+            display: block;
+            border-top: 1px solid rgba(0, 0, 0, 0.15);
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            right: -45px;
+        }
+
+        #ainoWidget li[data-aino="customize-shipping"] > .aino-collapse-trigger > .carrier-logo {
+            position: static;
+            margin-top: 9px;
+            margin-bottom: -10px;
+        }
+}
+
+@media (max-width: 460px) {
+    #ainoWidget [data-aino="mini-map"] .aino-card-body .aino-media-body button.aino-button,
+    #ainoWidget [data-aino="shop-mini-map"] .aino-card-body .aino-media-body button.aino-button {
+        position: static;
+    }
+}
+
+@media (min-width: 768px) {
+    #ainoWidget .aino-container:not(.aino-3column) .aino-delivery-detailed li.aino-active .carrier-logo, #ainoWidget .aino-container:not(.aino-3column) .aino-delivery-detailed li.aino-active .aino-delivery-price {
+        right: 24px;
+    }
+}
+
+#ainoWidget label.aino-input span.aino-inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#ainoWidget label.aino-input .inline-span {
+    display: inline
+}
+
+#ainoWidget .aino-container .aino-core .aino-map-container *,
+#ainoWidget .aino-container .aino-core .aino-card-top .aino-mini-map * {
+    font-size: 10px;
+}
+
+#ainoWidget {
+    color: #000;
+    text-align: left;
+}
+
+    #ainoWidget .aino-container {
+        background: transparent;
+    }
+
+        #ainoWidget .aino-container .aino-core .carrier-logo {
+            bottom: 8px;
+        }
+
+    #ainoWidget .aino-delivery-detailed .shipping-method-label,
+    #ainoWidget li[data-aino="map"].aino-active {
+        background: #fff;
+    }
+
+    #ainoWidget .aino-container .aino-map-container *,
+    #ainoWidget .aino-container .aino-card-top .aino-mini-map * {
+        font-size: 10px;
+    }
+
+    #ainoWidget .aino-container.aino-3column .aino-delivery-detailed li.aino-active:last-child label {
+        border-bottom: none !important;
+    }
+
+    #ainoWidget .aino-3column [data-aino="mini-map"] .aino-card-body .aino-media-body button.aino-button,
+    #ainoWidget .aino-3column [data-aino="shop-mini-map"] .aino-card-body .aino-media-body button.aino-button {
+        position: static;
+        margin-top: 7px;
+    }
+
+    #ainoWidget .aino-3column .aino-location-container {
+        padding-right: 45px;
+    }
+
+    #ainoWidget .aino-container.aino-3column .aino-location-container .aino-destination-info {
+        padding-bottom: 26px;
+    }
+
+@media (max-width: 1200px) {
+    .aino-entry-code {
+        width: 226px;
+    }
+
+        .aino-entry-code input {
+            width: 100%;
+        }
+}
+
+@media (max-width: 992px) {
+    #ainoWidget .aino-container [data-aino="mini-map"] .aino-card-body .aino-media-body button.aino-button,
+    #ainoWidget .aino-container.aino-3column [data-aino="mini-map"] .aino-card-body .aino-media-body button.aino-button,
+    #ainoWidget .aino-container [data-aino="shop-mini-map"] .aino-card-body .aino-media-body button.aino-button,
+    #ainoWidget .aino-container.aino-3column [data-aino="shop-mini-map"] .aino-card-body .aino-media-body button.aino-button {
+        position: static;
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 767px) {
+    #ainoWidget .aino-container .aino-loadmore-locations button:after {
+        display: block;
+        margin: 7px auto 0;
+    }
+}
+
+#ainoWidget .aino-container .incar-email-error, .incar-email-success {
+    display: none;
+}
+
+#ainoWidget .aino-container .incar-email-error {
+    color: red;
+}
+
+#ainoWidget .aino-container .incar-email-success {
+    color: green;
+}
+
+#ainoWidget .aino-container .tab-empty-description2 {
+    line-height: 1.33;
+    display: block;
+    font-size: 12.001px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic);
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 100%/1 'Lato', Arial, sans-serif;
+    color: #333;
+    background: #fff;
+}
+
+.button:not(#place_order) {
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc;
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Lato', Arial, sans-serif;
+    text-transform: uppercase;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    background: linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+
+.trigger, #output {
+    padding: 1em;
+    margin: 0;
+}
+
+
+
+/*= Confirm Box */
+
+#ainoWidget .popup-wrapper {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    background: rgba( 204, 204, 204, 0.6 );
+    display: none;
+}
+
+#ainoWidget .popup-box {
+    width: 300px;
+    background: #fff;
+    min-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+#ainoWidget .popup-buttons {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 1em;
+}
+
+#ainoWidget .popup-buttons button {
+    display: inline-block;
+    background: transparent;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid;
+    margin: 0 0.5em;
+    padding: 0.6em 0;
+    width: 120px;
+}
+
+#ainoWidget .popup-header {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2.5em 0 1.5em 0;
+}
+
+#ainoWidget .popup-header:after {
+    content: ' ';
+    display: block;
+    width: 1em;
+    border-top: 1px solid;
+    margin: 0.4em auto;
+}
+
+#ainoWidget .okbutton, #ainoWidget .cancelbutton {
+    background-color: #B4E1D8; 
+}
+
+#ainoWidget .postcode-form {
+    padding:25px; 
+}
+
+@media (max-width: 767px) {
+    #ainoWidget .popup-buttons label.aino-button {
+        display: inline-block;
+    }
+}
+
+#ainoWidget .no-map .aino-location-list {
+    height: 257px;
+    float: none;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .no-map .aino-loadmore-locations {
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .no-map .aino-locations-footer .aino-search-point {
+    width: 100%;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ainoWidget .no-map .postcode-error {
+    font-size: 13px; 
+    float:right; 
+}
+
+#ainoWidget .no-points-message {
+    margin-top: 5px; 
+    margin-left: 5px; 
+    color: #F00; 
+    display:block; 
+}

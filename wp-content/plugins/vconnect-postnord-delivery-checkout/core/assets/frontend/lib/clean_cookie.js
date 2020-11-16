@@ -1,0 +1,1 @@
+Cookies.remove('aio_data');

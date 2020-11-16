@@ -1,0 +1,72 @@
+/*li a[href*="wc_vc"] {
+    display: none;
+}*/
+
+.vc-pdk-menu {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background: #fff;
+    height: 208px;
+    z-index: 9999;
+}
+
+.subsubsub li:hover .vc-pdk-menu {
+    display: block;
+}
+
+.vc-pdk-menu li {
+    display: block;
+}
+
+#editor {
+    min-height: 300px;
+}
+
+#vc_aino_custom_styles {
+    display: none;
+}
+
+.vc-save-popup {
+    display: none;
+    width: 100%;
+    background-color: #71ed90;
+    color: #000;
+    padding: 10px;
+    position: fixed;
+    top: 40px;
+    z-index: 999;
+}
+
+
+/**
+ * New
+ */
+
+.wc-modal-shipping-method-settings form .form-table tr.vc_rate th {
+    /*width: auto;*/
+}
+
+.woocommerce_page_wc-settings .shippingrows {
+    table-layout: fixed;
+}
+
+.woocommerce_page_wc-settings .wc-modal-shipping-method-settings .shippingrows th.vc-check-column {
+    width: 50px;
+}
+
+.woocommerce_page_wc-settings .shippingrows .vc_rate td {
+    /*width: 100px;*/
+}
+
+.woocommerce_page_wc-settings .shippingrows .vc_rate td input {
+    margin: 1px;
+    max-width: none;
+    min-width: 0;
+    padding: 3px 5px;
+    width: 100%;
+}
+
+.wc-modal-shipping-method-settings form .form-table tr th.rate-title {
+    width: 100px;
+}

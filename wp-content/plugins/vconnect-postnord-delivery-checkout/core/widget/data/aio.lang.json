@@ -1,0 +1,563 @@
+{
+  "homeDeliveryFlex.title": {
+    "en": "Select delivery time",
+    "dk": "Vælg leveringsmetode",
+    "sv": "När vill du att vi ska komma?",
+    "no": "Velg leveringstid",
+    "fi": "Valitse toimitusaika"
+  },
+  "homeDeliveryFlex.dayDelivery.text": {
+    "en": "The day before you will receive a text message with the time intervals. In the text message, you can select backup options if you are not at home",
+    "dk": "Dagen inden modtager du en SMS med tidsintevaller. I SMS’en kan du vælge backup alternativer hvis du ikke er hjemme.",
+    "sv": "Dagen innan får du ett SMS med tidsintervaller. I SMS:et kan du välja backup-alternativ om du inte är hemma",
+    "no": "Dagen før vil du motta en tekstmelding med tidsintervallene. I tekstmeldingen kan du velge sikkerhetskopieringsalternativer hvis du ikke er hjemme",
+    "fi": "Päivä ennen kuin saat tekstiviestin toimitusaikatauluista. Tekstiviestistä voit valita varavaihtoehdon, jos et ole kotona."
+  },
+  "homeDeliveryFlex.eveningDelivery.text": {
+    "en": "The day before delivery you will receive a text message with the time intervals. You can choose the backup option if you would not be home.",
+    "dk": "Dagen innan får du ett SMS med tidsintervaller. I SMS:et kan du välja backup-alternativ om du inte är hemma",
+    "sv": "Dagen innan leverans får du ett SMS med tidsintervaller. Du kan välja backup-alternativ om du inte skulle vara hemma.",
+    "no": "Dagen før levering vil du motta en tekstmelding med tidsintervallene. Du kan velge backupalternativet hvis du ikke ville være hjemme.",
+    "fi": "Saat tekstiviestin toimitusajoista päivää ennen toimitusta. Voit valita varavaihtoehdon, jos et ole kotona tuohon aikaan."
+  },
+  "homeDeliveryFlex.standardDelivery.text": {
+    "en": "The day before delivery you will receive a text message with the time intervals. You can choose the backup option if you would not be home.",
+    "dk": "Dagen innan får du ett SMS med tidsintervaller. I SMS:et kan du välja backup-alternativ om du inte är hemma",
+    "sv": "Dagen innan leverans får du ett SMS med tidsintervaller. Du kan välja backup-alternativ om du inte skulle vara hemma.",
+    "no": "Dagen før levering vil du motta en tekstmelding med tidsintervallene. Du kan velge backupalternativet hvis du ikke ville være hjemme.",
+    "fi": "Saat tekstiviestin toimitusajoista päivää ennen toimitusta. Voit valita varavaihtoehdon, jos et ole kotona tuohon aikaan."
+  },
+  "homeDeliveryFlex.flexDelivery.text": {
+    "en": "We leave the package outside your door and notify you by SMS on delivery. You can not change delivery later.",
+    "dk": "Vælg hvordan pakken skal leveres:",
+    "sv": "Vi lämnar paketet utanför din dörr och aviserar dig via SMS vid leverans. Du kan inte ändra leveransätt senare.",
+    "no": "Vi forlater pakken utenfor døren og varsler deg via SMS ved levering. Du kan ikke endre leveransen senere.",
+    "fi": "Jätämme paketin ovesi ulkopuolelle ja ilmoitamme sinulle tästä tekstiviestitse. Et voi muuttaa toimitusta jälkeenpäin."
+  },
+  "flexLocation.pkgOutsideDoor": {
+    "en": "Front door",
+    "dk": "Uden kvittering",
+    "sv": "Lämna paketet utanför dörren",
+    "no": "Uten bekreftelse",
+    "fi": "Etuovi"
+  },
+  "flexLocation.outside": {
+    "en": "On the front door",
+    "dk": "Udenfor døren",
+    "sv": "Utanför dörren",
+    "no": "Utenfor døren",
+    "fi": "Etuovella"
+  },
+  "flexLocation.garage": {
+    "en": "Car port",
+    "dk": "Carport/garage",
+    "sv": "I garage",
+    "no": "I garasjen",
+    "fi": "Autotalli/-katos"
+  },
+  "flexLocation.backDoor": {
+    "en": "Backdoor",
+    "dk": "Ved bagdøren",
+    "sv": "På baksidan",
+    "no": "På bakdøren",
+    "fi": "Takaovi"
+  },
+  "flexLocation.modttager": {
+    "en": "ModttagerFlex",
+    "dk": "Jeg har Modtagerflex",
+    "sv": "Jeg har Modtagerflex",
+    "no": "Jeg har mottaker Flex",
+    "fi": "Toinen vastaanottaja"
+  },
+  "flexLocation.other": {
+    "en": "Other place",
+    "dk": "Andet sted",
+    "sv": "Ange Portkod",
+    "no": "Andreplassen",
+    "fi": "Toinen paikka"
+  },
+  "homeDeliveryNorway.title": {
+    "en": "Choose delivery options",
+    "dk": "Vælg leverings muligheder",
+    "sv": "Välj leveransalternativ",
+    "no": "Velg leveringsalternativ",
+    "fi": "Valitse toimitusvaihtoehdot"
+  },
+  "homeDeliveryNorway.standardDelivery.text": {
+    "en": "You will have the opportunity to choose delivery time as soon as we have received your package.",
+    "dk": "Du får mulighed for at vælge leveringstid så snart vi har modtaget din pakke.",
+    "sv": "Du får möjlighet att välja leveranstid så snart vi har fått ditt paket.",
+    "no": "Du vil få mulighet til å velge tidspunkt for levering så snart vi har mottatt pakken din.",
+    "fi": "Sinulla on mahdollisuus valita toimitusaika heti kun olemme vastaanottaneet pakettisi."
+  },
+  "homeDeliveryNorway.locationTitle": {
+    "en": "Choose delivery options",
+    "dk": "Vælg leverings muligheder",
+    "sv": "Välj leveransalternativ",
+    "no": "Velg leveringsalternativ",
+    "fi": "Valitse toimitusvaihtoehdot"
+  },
+  "norwayStandardLocation.signature": {
+    "en": "Delivery with signature",
+    "dk": "Levering mod underskrift",
+    "sv": "Leverans mot signatur",
+    "no": "Levering mot signatur",
+    "fi": "Toimitus allekirjoitus"
+  },
+  "norwayStandardLocation.pkgOutsideDoor": {
+    "en": "Front door",
+    "dk": "Uden kvittering",
+    "sv": "Lämna paketet utanför dörren",
+    "no": "Uten bekreftelse",
+    "fi": "Etuovi"
+  },
+
+  "homeDeliveryTabs.title": {
+    "en": "Delivery type",
+    "dk": "Pakken leveres",
+    "sv": "Paketet lämnas över",
+    "no": "Pakken kommer",
+    "fi": "Arvioitu toimitusaika"
+  },
+  "homeDeliveryTabs.text1": {
+    "en": "Text 1",
+    "dk": "Text 1",
+    "sv": "Text 1",
+    "no": "Pakken leveres",
+    "fi": "Lähetyksen toimitustapa"
+  },
+  "homeDeliveryTabs.text2": {
+    "en": "Text 2",
+    "dk": "Text 2",
+    "sv": "Text 2",
+    "no": " ",
+    "fi": " "
+  },
+  "homeDeliveryTabs.type.dayDelivery": {
+    "en": "Day delivery",
+    "dk": "Dag levering",
+    "sv": "Dagleverans",
+    "no": "innen 1-5 dager 08:00-17:00",
+    "fi": "Toimitus klo 8-17 välisenä aikana."
+  },
+  "homeDeliveryTabs.location.standard": {
+    "en": "Standard",
+    "dk": "Standard",
+    "sv": "Standard",
+    "no": "Levering mot signatur",
+    "fi": "Perus"
+  },
+  "homeDeliveryTabs.location.withArrangement": {
+    "en": "With arrangement",
+    "dk": "Med arrangement",
+    "sv": "Med arrangemang",
+    "no": "Med arrangement",
+    "fi": "Lähetyksen toimitus kuittausta vastaan"
+  },
+  "businessDeliveryTabs.title": {
+    "en": "BT Delivery type",
+    "dk": "BT Pakken leveres",
+    "sv": "BT Paketet lämnas över",
+    "no": "BT Pakken leveres",
+    "fi": "Arvioitu toimitusaika"
+  },
+  "businessDeliveryTabs.text1": {
+    "en": "BT Text 1",
+    "dk": "BT Text 1",
+    "sv": "BT Text 1",
+    "no": "BT Text 1",
+    "fi": "Lähetyksen toimitustapa"
+  },
+  "businessDeliveryTabs.text2": {
+    "en": "BT Text 2",
+    "dk": "BT Text 2",
+    "sv": "BT Text 2",
+    "no": "BT Text 2",
+    "fi": " "
+  },
+  "businessDeliveryTabs.type.dayDelivery": {
+    "en": "Day delivery",
+    "dk": "Dag levering",
+    "sv": "Dagleverans",
+    "no": "Innen 1-5 dager 08:00-16:00",
+    "fi": "1-3 arkipäivää. Toimitus klo 8-16 välisenä aikana."
+  },
+  "businessDeliveryTabs.location.withArrangement": {
+    "en": "With arrangement",
+    "dk": "Med arrangement",
+    "sv": "Med arrangemang",
+    "no": "Med arrangement",
+    "fi": "Lähetyksen toimitus kuittausta vastaan"
+  },
+  "internationalDelivery.text": {
+    "en": "International delivery from DPD",
+    "dk": "International pakke leveret af DPD",
+    "sv": "Internationellt paket levererat av DPD",
+    "no": "Internasjonal levering fra DPD",
+    "fi": "DPD:n toimittama kansainvälinen paketti"
+  },
+  "euDelivery.text": {
+    "en": "International delivery from DPD",
+    "dk": "International pakke leveret af DPD",
+    "sv": "Internationellt paket levererat av DPD",
+    "no": "Internasjonal pakke levert av DPD",
+    "fi": "DPD:n toimittama kansainvälinen paketti"
+  },
+  "mailboxDelivery.title": {
+    "en": "Select delivery time",
+    "dk": "Vælg hvor hurtigt pakken skal leveres",
+    "sv": "Välj hur snabbt paketet ska levereras",
+    "no": "Velg leveringsalternativ:",
+    "fi": "Valitse toimitusaika"
+  },
+  "mailboxDelivery.text1": {
+    "en": "We come to your job during the day between the hours of 8-17",
+    "dk": "Vi kommer til din arbejdsplads mellem kl 8-17",
+    "sv": "Vi kommer till ditt jobb dagtid mellan kl 8-17",
+    "no": "Vi kommer til din arbeidsplass mellom kl 8-17",
+    "fi": "Tulemme työpaikallesi arikipäivinä 8-17 välisenä aikana"
+  },
+  "mailboxDelivery.text2": {
+    "en": "We leave the package at your job (for example, in the entrance, the reception, the loading dock). You can not change delivery later",
+    "dk": "Vi leverer pakken på din arbejdsplads",
+    "sv": "Vi lämnar av paketet på ditt jobb (exempelvis i entrén, receptionen, lastkajen). Du kan inte ändra leveransätt senare",
+    "no": "Vi forlater pakken på din jobb (for eksempel i inngangen, resepsjonen, lastdocka). Du kan ikke endre leveransen senere",
+    "fi": "Jätämme paketin työpaikallesi (esimerkiksi etuovelle, vastaanottoon tai lastauslaiturille). Et voi muuttaa toimitustapaa tämän jälkeen."
+  },
+  "mailboxDelivery.text3": {
+    "en": "Make sure to enter a valid business address as the delivery address.",
+    "dk": "Husk at brug en gyldig erhvervsadresse.",
+    "sv": "Se till att ange en giltig företagsadress som leveransadress.",
+    "no": "Pass på at du oppgir en gyldig forretningsadresse som fraktadresse.",
+    "fi": "Varmista että syöttämäsi osoite on oikein"
+  },
+  "mailboxDelivery.text4": {
+    "en": "If the package does not fit in the mailbox, it will be delivered to",
+    "dk": "Hvis pakken ikke kan komme i brevkassen vil den blive leveret til",
+    "sv": "Om paketet inte får plats i postlådan kommer det att levereras till",
+    "no": "Pakken leveres samme sted som din lokalavis, enten i postkassen eller på dørmatten.",
+    "fi": "Jos paketti ei mahdu postilaatikkoon/postiluukusta, lähetetään se"
+  },
+  "mailboxDelivery.text5": {
+    "en": "If the package does not fit in the mailbox, it may be delivered to my door.", 
+    "dk": "Hvis pakken ikke kan kan være i postkassen, så sæt den venligst ved døren.",
+    "sv": "Om paketet inte får plats i postlådan så får det levereras vid min dörr.",
+    "no": "Hvis pakken ikke får plass i min postkasse, leveres den ved min dør.",
+    "fi": "Jos paketti ei mahdu postilaatikkoon, sen saa jättää oveni ulkopuolelle."
+  },
+  "mailboxDeliveryNorway.title": {
+    "en": "Choose delivery options",
+    "dk": "Vælg leverings muligheder",
+    "sv": "Välj leveransalternativ",
+    "no": "Sendes innen:",
+    "fi": "Valitse toimitusvaihtoehdot"
+  },
+  "mailboxDeliveryNorway.description": {
+    "en": "If the package does not fit in the mailbox, it will be delivered to",
+    "dk": "Hvis pakken ikke kan komme i brevkassen vil den blive leveret til",
+    "sv": "Om paketet inte får plats i postlådan kommer det att levereras till",
+    "no": "Pakken leveres samme sted som din lokalavis, enten i postkassen eller på dørmatten.",
+    "fi": "Jos paketti ei mahdu postilaatikkoon/postiluukusta, lähetetään se"
+  },
+  "businessDelivery.text1": {
+    "en": "We come to your job during the day between the hours of 8-16",
+    "dk": "Vi kommer til din arbejdsplads mellem kl 8-16",
+    "sv": "Vi kommer till ditt jobb dagtid mellan kl 8-16",
+    "no": "Vi kommer til arbeidet ditt dagtid mellom kl 8-16",
+    "fi": "Tulemme työpaikallesi arikipäivinä 8-16 välisenä aikana"
+  },
+  "businessDelivery.text2": {
+    "en": "We leave the package at your job (for example, in the entrance, the reception, the loading dock). You can not change leveransätt later",
+    "dk": "Vi leverer pakken på din arbejdsplads",
+    "sv": "Vi lämnar av paketet på ditt jobb (exempelvis i entrén, receptionen, lastkajen). Du kan inte ändra leveransätt senare",
+    "no": "Vi forlater pakken på din jobb (for eksempel i inngangen, resepsjonen, lastdocka). Du kan ikke endre leveransen senere",
+    "fi": "Jätämme pakein työpaikallesi (esimerkiksi etuovelle, vastaanottoon tai lastauslaiturille). Et voi muuttaa toimitustapaa tämän jälkeen."
+  },
+  "businessDelivery.text3": {
+    "en": "Make sure to enter a valid business address as the delivery address.",
+    "dk": "Husk at brug en gyldig erhvervsadresse.",
+    "sv": "Se till att ange en giltig företagsadress som leveransadress.",
+    "no": "Pass på at du oppgir en gyldig forretningsadresse som fraktadresse.",
+    "fi": "Varmista että syöttämäsi osoite on oikein"
+  },
+  "inCarDelivery.text1": {
+    "en": "We come to your job during the day between the hours of 8-17",
+    "dk": "Vi kommer til din arbejdsplads mellem kl 8-17",
+    "sv": "Vi kommer till ditt jobb dagtid mellan kl 8-17",
+    "no": "Vi kommer til arbeidet ditt dagtid mellom kl 8-17",
+    "fi": "Tulemme työpaikallesi arikipäivinä 8-17 välisenä aikana"
+  },
+  "inCarDelivery.text2": {
+    "en": "We leave the package at your job (for example, in the entrance, the reception, the loading dock). You can not change leveransätt later",
+    "dk": "Vi leverer pakken på din arbejdsplads",
+    "sv": "Vi lämnar av paketet på ditt jobb (exempelvis i entrén, receptionen, lastkajen). Du kan inte ändra leveransätt senare",
+    "no": "Vi forlater pakken på din jobb (for eksempel i inngangen, resepsjonen, lastdocka). Du kan ikke endre leveransen senere",
+    "fi": "Jätämme pakein työpaikallesi (esimerkiksi etuovelle, vastaanottoon tai lastauslaiturille). Et voi muuttaa toimitustapaa tämän jälkeen."
+  },
+  "inCarDelivery.text3": {
+    "en": "Make sure to enter a valid business address as the delivery address.",
+    "dk": "Husk at brug en gyldig erhvervsadresse.",
+    "sv": "Se till att ange en giltig företagsadress som leveransadress.",
+    "no": "Pass på at du oppgir en gyldig forretningsadresse som fraktadresse.",
+    "fi": "Varmista että syöttämäsi osoite on oikein"
+  },
+  "inCarDelivery.email": {
+    "en": "Enter your email",
+    "dk": "Indtast din email",
+    "sv": "Ange din e-postadress",
+    "no": "Skriv inn din e-post",
+    "fi": "Syötä sähköpostiosoitteesi"
+  },
+  "inCarDelivery.searchEmail": {
+    "en": "Search",
+    "dk": "Søg",
+    "sv": "Sök",
+    "no": "Søk",
+    "fi": "Etsi"
+  },
+  "inCarDelivery.emailError": {
+    "en": "Email not found. Please try again.",
+    "dk": "Email ikke fundet. Prøv igen.",
+    "sv": "Email ikke OK, forsøg venligst igen",
+    "no": "E-post ikke funnet. Vennligst prøv igjen.",
+    "fi": "Sähköpostiosoitetta ei löytynyt. Ole hyvä ja yritä uudelleen."
+  },
+  "inCarDelivery.emailSuccess": {
+    "en": "Email OK.",
+    "dk": "Email OK.",
+    "sv": "Email OK.",
+    "no": "E-post OK.",
+    "fi": "Sähköpostiosoite OK."
+  },
+  "postOfficeMap.title": {
+    "en": "Change pickup location",
+    "dk": "Ændre udleveringssted",
+    "sv": "Ändra ombud",
+    "no": "Endre leveringsstedet",
+    "fi": "Vaihda toimituspaikka"
+  },
+  "postOfficeMap.postcodeField": {
+    "en": "Postcode",
+    "dk": "Ændre postnummer",
+    "sv": "Sök postnummer",
+    "no": "Endre postnummer",
+    "fi": "Hae postinumerolla"
+  },
+  "postOfficeMap.searchButton": {
+    "en": "Search",
+    "dk": "Søg",
+    "sv": "Sök",
+    "no": "Søk",
+    "fi": "Hae"
+  },
+  "postOfficeMap.loadMore": {
+    "en": "Load more",
+    "dk": "Vis flere udleveringssteder",
+    "sv": "Visa fler ombud",
+    "no": "Vis flere leveringssteder",
+    "fi": "Tarkastele lisää aineita"
+  },
+  "postOfficeMap.backButton": {
+    "en": "Back",
+    "dk": "Tilbage",
+    "sv": "Tillbaka",
+    "no": "Tilbake",
+    "fi": "Takaisin"
+  },
+  "postOfficeDelivery.changeLocation": {
+    "en": "Change pickup location",
+    "dk": "Ændre udleveringssted",
+    "sv": "Ändra ombud",
+    "no": "Andre agenter",
+    "fi": "Vaihda toimituspaikka"
+  },
+  "postOfficeMap.searchError": {
+    "en": "No results found",
+    "dk": "Ingen resultater fundet",
+    "sv": "Inga resultat funna",
+    "no": "Ingen resultater funnet",
+    "fi": "Hakutuloksia ei löytynyt"
+  },
+  "postOfficeDelivery.title": {
+    "en": "The package comes with:",
+    "dk": "Pakken leveres til:",
+    "sv": "Paketet levereras till:",
+    "no": "Pakken leveres til:",
+    "fi": "Paketti toimitetaan:"
+  },
+  "postOfficeDelivery.openingHours": {
+    "en": "Opening hours ",
+    "dk": "Åbningstider",
+    "sv": "Öppningstider",
+    "no": "Åpningstider",
+    "fi": "Aukioloajat"
+  },
+  "postOfficeDelivery.workdays": {
+    "en": "Mon-Fri",
+    "dk": "Man-Fre",
+    "sv": "Mån-Fre",
+    "no": "Man-Fre",
+    "fi": "Ma-Pe"
+  },
+  "postOfficeDelivery.saturday": {
+    "en": "Sat",
+    "dk": "Lør",
+    "sv": "Lör",
+    "no": "Lør",
+    "fi": "La"
+  },
+  "shopMap.title": {
+    "en": "Change pickup location",
+    "dk": "Ændre udleveringssted",
+    "sv": "Ändra ombud",
+    "no": "Endre leveringsstedet",
+    "fi": "Vaihda toimituspaikka"
+  },
+  "shopMap.postcodeField": {
+    "en": "Postcode",
+    "dk": "Ændre postnummer",
+    "sv": "Sök postnummer",
+    "no": "Endre postnummer",
+    "fi": "Hae postinumerolla"
+  },
+  "shopMap.searchButton": {
+    "en": "Search",
+    "dk": "Søg",
+    "sv": "Sök",
+    "no": "Søk",
+    "fi": "Hae"
+  },
+  "shopMap.loadMore": {
+    "en": "Load more",
+    "dk": "Vis flere udleveringssteder",
+    "sv": "Visa fler ombud",
+    "no": "Vis flere leveringssteder",
+    "fi": "Tarkastele lisää aineita"
+  },
+  "shopMap.backButton": {
+    "en": "Back",
+    "dk": "Tilbage",
+    "sv": "Tillbaka",
+    "no": "Tilbake",
+    "fi": "Takaisin"
+  },
+  "shopMap.searchError": {
+    "en": "No results found",
+    "dk": "Ingen resultater fundet",
+    "sv": "Inga resultat funna",
+    "no": "Ingen resultater funnet",
+    "fi": "Hakutuloksia ei löytynyt"
+  },
+  "shopDelivery.title": {
+    "en": "The package comes with:",
+    "dk": "Pakken leveres til:",
+    "sv": "Paketet levereras till:",
+    "no": "Pakken leveres til:",
+    "fi": "Paketti saapuu:"
+  },
+  "shopDelivery.changeLocation": {
+    "en": "Change pickup location",
+    "dk": "Ændre udleveringssted",
+    "sv": "Ändra ombud",
+    "no": "Andre agenter",
+    "fi": "Vaihda toimituspaikka"
+  },
+  "shopDelivery.openingHours": {
+    "en": "Opening hours ",
+    "dk": "Åbningstider",
+    "sv": "Öppningstider",
+    "no": "Åpningstider",
+    "fi": "Aukioloajat"
+  },
+  "shopDelivery.workdays": {
+    "en": "Mon-Fri",
+    "dk": "Man-Fre",
+    "sv": "Mån-Fre",
+    "no": "Man-Fre",
+    "fi": "Ma-Pe"
+  },
+  "shopDelivery.saturday": {
+    "en": "Sat",
+    "dk": "Lør",
+    "sv": "Lör",
+    "no": "Lør",
+    "fi": "La"
+  },
+  "days.mon": {
+    "en": "Mon",
+    "dk": "Man",
+    "sv": "Mån",
+    "no": "Man",
+    "fi": "Ma"
+  },
+  "days.tue": {
+    "en": "Tue",
+    "dk": "Tir",
+    "sv": "Tir",
+    "no": "Tir",
+    "fi": "Ti"
+  },
+  "days.wen": {
+    "en": "Wen",
+    "dk": "Ons",
+    "sv": "Ons",
+    "no": "Ons",
+    "fi": "Ke"
+  },
+  "days.thu": {
+    "en": "Thu",
+    "dk": "Tor",
+    "sv": "Tor",
+    "no": "Tor",
+    "fi": "To"
+  },
+  "days.fri": {
+    "en": "Fri",
+    "dk": "Fre",
+    "sv": "Fre",
+    "no": "Fre",
+    "fi": "Pe"
+  },
+  "days.sat": {
+    "en": "Sat",
+    "dk": "Lør",
+    "sv": "Lör",
+    "no": "Lør",
+    "fi": "La"
+  },
+  "days.sun": {
+    "en": "Sun",
+    "dk": "Søn",
+    "sv": "Sön",
+    "no": "Søn",
+    "fi": "Su"
+  },
+  "mainView.emptyText": {
+    "en": "Choose delivery way from the left, then additional options shown here.",
+    "dk": "Vælg fragtmetode til venstre og så vil yderligere information blive vist her.",
+    "sv": "Välj fraktsätt till vänster så kommer extra valmöjligheter visas här.",
+    "no": "Velg fraktmetode til venstre, og deretter vil ytterligere informasjon bli vist her.",
+    "fi": "Näet lisävaihtoehdot tässä, kun valitset toimitustavan vasemmalta."
+  },
+  "postcodePopup.ok": {
+    "en": "Submit",
+    "dk": "Indsend",
+    "sv": "OK",
+    "no": "Send",
+    "fi": "Lähetä"
+  },
+  "postcodePopup.cancel": {
+    "en": "Cancel",
+    "dk": "Annuller",
+    "sv": "Avbryt",
+    "no": "Avbryt",
+    "fi": "Peruuta"
+  },
+  "postcodePopup.message": {
+    "en": "Please enter postcode",
+    "dk": "Indtast venligst postnummer",
+    "sv": "Vänligen ange postnummer",
+    "no": "Vennligst skriv inn postnummer",
+    "fi": "Anna postinumero"
+  }
+}
